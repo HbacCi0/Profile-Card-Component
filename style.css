@@ -9,6 +9,7 @@ body::before{
     height: 50%;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 body::after{
@@ -21,19 +22,37 @@ body::after{
     left: 50%;
     width: 50%;
     height: 50%;
+    z-index: -1;
 }
 
 body {
     background: hsl(185, 75%, 39%);
 }
 
-.cover {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.card {
+    position: absolute;
+    background: white;
+    border-radius: 5%;
+    margin : auto;
+    width: 350px;
+    height: 400px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.profile{
+    position: relative;
+    text-align: center;
+    bottom: 15%;
+    border-bottom: 1px solid lightgray;
 }
 
 
 .victor{
     border: 5px solid white;
     border-radius: 100%;
+    position: relative;
 }
