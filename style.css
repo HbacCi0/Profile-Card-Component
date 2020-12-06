@@ -1,0 +1,39 @@
+
+body::before{
+    content : "";
+    background-image: url("images/bg-pattern-top.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: right bottom;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;
+}
+
+body::after{
+    content : "";
+    background-image: url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: left top;
+    top : 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+body {
+    background: hsl(185, 75%, 39%);
+}
+
+.cover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.victor{
+    border: 5px solid white;
+    border-radius: 100%;
+}
