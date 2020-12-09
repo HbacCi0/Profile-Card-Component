@@ -13,6 +13,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    max-height: 0.3em;
 }
 
 ul {
@@ -57,7 +58,6 @@ li:last-child {
 .profile {
     position: relative;
     text-align: center;
-    bottom: 15%;
     border-bottom: 1px solid lightgray;
 }
 
